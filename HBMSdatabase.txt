@@ -1,0 +1,11 @@
+//users table
+create table users(user_id number primary key,password varchar(7),role varchar(10),user_name varchar(20),
+mobile_no varchar(10),phone varchar(10),address varchar(25),email varchar(15))
+
+
+
+//Hotel table
+
+create table hotel(hotel_id varchar(4) primary key,city varchar(10),hotel_name varchar(20),address varchar(25)
+,description varchar(50),avg_rate_per_night number(10,2),phone_no1 varchar(10),
+phone_no2 varchar(10),rating varchar(4),email varchar(15),fax varchar(15))
